@@ -1,0 +1,41 @@
+{
+  "generator-ngx-library": {
+    "version": "5.8.0",
+    "authorName": "anthonynahas",
+    "authorEmail": "anthony.na@hotmail.de",
+    "githubUsername": "anthonynahas",
+    "githubRepoName": "ngx-contacts-firebaseui",
+    "projectName": "ngx-contacts-firebaseui",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular library to manage contacts with firebase",
+    "projectKeywords": [
+      "ngx",
+      "angular",
+      "library",
+      "firebase",
+      "contacts",
+      "management"
+    ],
+    "ngVersion": "5.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [
+      "ngx-auth-firebaseui",
+      "ngx-material-contacts"
+    ],
+    "additionalPackageFiles": [],
+    "dependenciesRange": "^",
+    "ngPrefix": "ngx-contacts",
+    "testingFramework": "jest",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "config/karma.conf.js",
+      "config/webpack.test.js",
+      "config/karma-test-shim.js"
+    ]
+  }
+}
