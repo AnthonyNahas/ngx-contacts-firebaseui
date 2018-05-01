@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": [],
+    "paths": {
+      "@angular/*": ["../node_modules/@angular/*"],
+      "ngx-auth-firebaseui": ["../node_modules/ngx-auth-firebaseui"],
+      "ngx-material-contacts": ["../node_modules/ngx-material-contacts"]
+    }
+  },
+  "exclude": [
+    "testing/*",
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
