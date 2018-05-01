@@ -1,0 +1,15 @@
+<div *ngIf="auth.authState; then contacts else auth">
+</div>
+
+<ng-template #contacts>
+  <ngx-material-contacts
+    [contacts]="contacts"
+    (onContactAdded)="addContact($event)"
+    (onContactRemoved)="removeContact($event)">
+  </ngx-material-contacts>
+</ng-template>
+
+<ng-template #auth>
+  <h2>test</h2>
+  <!--<ngx-auth-firebaseui></ngx-auth-firebaseui>-->
+</ng-template>
